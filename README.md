@@ -67,14 +67,14 @@ if you haven't developed this way before, expect to learn a lot of lessons along
 
 Git and GitHub have great interfaces for managing branches and pull requests.
 
-### Managing Git Branches
+#### Managing Git Branches
 
 Any work done for the project should be done in a git branch to allow the team to easily review your changes.
 
 PyCharm has great [branch support](https://www.jetbrains.com/help/pycharm/manage-branches.html), 
 or you can simply use the command line to manage your branches.  
 
-### Comitting Changes to the Repository
+#### Comitting Changes to the Repository
 
 Once you've pushed your branch to the repository, you can open a pull request on
 the project's [GitHub Page][github_page].  This will allow the rest of the team to
