@@ -1,6 +1,9 @@
 # untitled-ultrasonic-unicorn
 A placeholder for the ultrasonic unicorn project
 
+This is a living document.  Feel free to make any corrections or additions you 
+think would be helpful.
+
 [github_page]: https://github.com/PseudoDesign/untitled-ultrasonic-unicorn
 [repository]: https://github.com/PseudoDesign/untitled-ultrasonic-unicorn.git
 
@@ -29,4 +32,50 @@ A placeholder for the ultrasonic unicorn project
 #### Pipenv Setup
 
 Follow the instructions provided on [PyCharm's website](https://www.jetbrains.com/help/pycharm/pipenv.html).
-The Pipfile already exists for this project
+The Pipfile already exists for this project.
+
+#### Verify Development Environment
+
+The most straightfoward way to make sure your environment is set up correctly is to run the unit tests.
+
+Right-click the "tests" directory, and select `Run Unittests in tests`:
+
+![](images/run-tests.png)
+
+
+## Development Practices
+
+### Work Tracking
+
+We're using a [Trello board](https://trello.com/b/7Ps4Girs/codejam-summer-2019) to track work for this project
+
+### Unit Tests
+
+"*Untested Code is Broken Code*" - Alan Turing (Probably)
+
+Bugs happen, and tests are a great way to catch them before they turn 
+into embarrassing demos.  [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+is a software development practice where (in general) developers write tests for
+their software before writing the software itself.
+
+Python's [unittest](https://www.geeksforgeeks.org/unit-testing-python-unittest/) 
+library is well suited for Test Driven Development.  Unit testing can be challenging;
+if you haven't developed this way before, expect to learn a lot of lessons along the way.
+
+
+### Version Control
+
+Git and GitHub have great interfaces for managing branches and pull requests.
+
+### Managing Git Branches
+
+Any work done for the project should be done in a git branch to allow the team to easily review your changes.
+
+PyCharm has great [branch support](https://www.jetbrains.com/help/pycharm/manage-branches.html), 
+or you can simply use the command line to manage your branches.  
+
+### Comitting Changes to the Repository
+
+Once you've pushed your branch to the repository, you can open a pull request on
+the project's [GitHub Page][github_page].  This will allow the rest of the team to
+review code and ensure that the unit tests are passing before committing it to the master branch.
