@@ -1,0 +1,10 @@
+[[source]]
+url = "https://github.com/PseudoDesign/untitled-ultrasonic-unicorn"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+
+[dev-packages]
+coverage = "*"

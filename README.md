@@ -26,3 +26,4 @@ A placeholder for the ultrasonic unicorn project
 
 ![](images/clone.png)
 
+#### Pipenv Setup
