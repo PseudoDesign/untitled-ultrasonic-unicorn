@@ -27,3 +27,6 @@ A placeholder for the ultrasonic unicorn project
 ![](images/clone.png)
 
 #### Pipenv Setup
+
+Follow the instructions provided on [PyCharm's website](https://www.jetbrains.com/help/pycharm/pipenv.html).
+The Pipfile already exists for this project
